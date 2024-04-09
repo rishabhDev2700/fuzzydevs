@@ -1,6 +1,9 @@
+import HeroSection from "./components/herosection";
 
 export default function Home() {
   return (
-   <main>Fuzzydevs</main>
+    <main>
+      <HeroSection/>
+    </main>
   );
 }
