@@ -2,6 +2,81 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Rounded";
+  src: url("./../public/fonts/Rounded_Elegance.ttf");
+}
+
+@font-face {
+  font-family: 'theboldfont';
+  font-style: normal;
+  font-weight: normal;
+  src: local('theboldfont'), url('./../public/fonts/theboldfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Raleway Thin'), url('./../public/fonts/raleway.thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway ExtraLight';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Raleway ExtraLight'), url('./../public/fonts/raleway.extralight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Raleway Light'), url('./../public/fonts/raleway.light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Raleway Regular'), url('./../public/fonts/raleway.regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Raleway Medium'), url('./../public/fonts/raleway.medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Raleway SemiBold'), url('./../public/fonts/raleway.semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Raleway Bold'), url('./../public/fonts/raleway.bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway ExtraBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Raleway ExtraBold'), url('./../public/fonts/raleway.extrabold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Raleway Heavy'), url('./../public/fonts/raleway.heavy.woff') format('woff');
+}
+
 body{
   background-image: url("/bg.jpeg");
   background-repeat: no-repeat;
@@ -21,4 +96,24 @@ body{
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 0.1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg,rgb(170, 59, 255),rgb(114, 203, 255));
+  border-radius: 0.2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg,rgb(54, 211, 255),rgb(161, 73, 255));
 }
